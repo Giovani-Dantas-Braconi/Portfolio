@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", serif;
+}
+
+header {
+    display: block;
+}
+
+.div_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px 0px;
+    align-items: center;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.choices_links {
+    display: flex;
+    gap: 30px;
+}
+
+.name_giovani {
+    font-size: 1.6em;
+    color: aqua !important;
+}
+
+.links {
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.links:hover {
+    color: aqua !important;
+}
+
+.div_intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 50px 40px;
+}
+
+.div_img {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.div_img img {
+    width: 100%;
+    max-width: 40em;
+    height: auto;
+    border-radius: 40px;
+}
+
+.div_txt_main {
+    flex-basis: 50%;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.first_line{
+    font-size: 1.8em;
+    padding-bottom: 0.7em;
+}
+
+.name_main {
+    color: aqua;
+}
+
+.about {
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.card_container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.733);
+}
+
+.card img{
+    width: 16em;
+    height: 10em;
+    border-radius: 10px;
+}
+
+.card .press_project {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.press_project:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.content_card {
+    margin: 20px 0px;
+}
+
+.card h3 {
+    margin: 10px 0px;
+}
