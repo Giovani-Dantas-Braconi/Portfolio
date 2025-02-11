@@ -137,3 +137,8 @@ header {
 .card h3 {
     margin: 10px 0px;
 }
+
+.about_data {
+    background-color: #fff;
+    width: 20em;align-items: center;
+}
