@@ -1,73 +1,143 @@
-<!-- https://www.adhamdannaway.com/ -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
-    <title>Portfólio - Giovani D Braconi</title>
+    <title>Giovani - Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="div_header">
-            <div class="name_giovani">
-                <p>Giovani Braconi</p>
-            </div>
-            <div class="choices_links">
-                <p class="links">Sobre</p>
-                <p class="links">Serviços</p>
-                <p class="links">Projetos</p>
-                <p class="links">Contact me</p>
-            </div>
+        <div class="header_align">
+            <p class="itens-header">Sobre mim</p>
+            <p class="itens-header">Empresas</p>
+            <p class="itens-header">Certificações</p>
+            <p class="itens-header">Timeline</p>
+            <p class="itens-header">Projetos</p>
+            <p class="itens-header">Contact me</p>
         </div>
     </header>
+    
     <main>
-        <div class="div_intro">
-            <div class="div_img">
-                <img src="src/img/foto_responsa.jpeg" alt="" data-aos="zoom-in">
-            </div>
-            <div class="div_txt_main">
-                <p class="first_line">Oi, eu sou o <span class="name_main">Giovani Dantas Braconi</span></p>
-                <p> sou um desenvolvedor back-end com foco em Python(django) há mais de dois anos. Minha trajetória na programação começou há quase três anos, e ao longo desse tempo, expandi meus conhecimentos para tecnologias como JavaScript e PHP, além de uma base sólida no desenvolvimento front-end. Atualmente, estou direcionando meus estudos para o desenvolvimento web e mobile, buscando integrar aplicações web e mobile de forma eficiente.</p>
-                <p style="margin-top: 15px;">Acredito que ensinar e compartilhar conhecimento são partes essenciais do desenvolvimento profissional. Compreender diferentes pontos de vista, ter uma comunicação clara e manter a organização de arquivos e projetos são fatores-chave para um bom trabalho em equipe.</p>
-                <p style="margin-top: 15px;">O que mais me motiva na programação é resolver problemas reais e ver minhas soluções impactando empresas e pessoas. Saber que um sistema que desenvolvi pode otimizar processos, facilitar a tomada de decisões ou melhorar a experiência do usuário é extremamente gratificante.</p>
-            </div>
-        </div>
-        <div class="div_projects">
-            <div class="card_container">
-                <div class="card">
-                    <h3>Projeto Academy</h3>
-                        <img src="src/img/project_academy.png" alt="">
-                    <p class="content_card">Fui o responsável pelo back-end de toda a aplicação feita em django. Atualmente é o meu primeiro deploy e sem sombras de duvídas, um dos meus projetos favoritos...</p>
-                    <p class="press_project">Veja detalhes</p>
-                </div>
-                <div class="card">
-                    <h3>Projeto FECEG</h3>
-                        <img src="src/img/project_academy.png" alt="">
-                    <p class="content_card">Foi o projeto responsável pelo meu entusiasmo com IAs e MLs, este foi um projeto em que eu crie uma esteira recicladora automática e um sub-projeto de gameficação...</p>
-                    <p class="press_project">Veja detalhes</p>
-                </div>
-                <div class="card">
-                    <h3>Projeto ONG IAKAP</h3>
-                        <img src="src/img/project_academy.png" alt="">
-                    <p class="content_card">Este foi um projeto em que eu fiz um sistema de controle de alunos, aulas, material de aula, controle de coordenadores, controle de professores e doações...</p>
-                    <p class="press_project">Veja detalhes</p>
-                </div>
-                <div class="card">
-                    <h3>Projeto Academy</h3>
-                        <img src="src/img/project_academy.png" alt="">
-                    <p class="content_card">Fui o responsável pelo back-end de toda a aplicação feita em django. Atualmente é o meu primeiro deploy e sem sombras de duvídas, um dos meus projetos favoritos</p>
-                    <p class="press_project">Veja detalhes</p>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>
+                Meu nome é <span class="highlight">Giovani Braconi</span><br/>
+                <span class="profession">Desenvolvedor Backend e DevOps Junior em constante desenvolvimento</span>
+                </h1>
+                <p>
+                Transformo ideias em soluções eficientes. Atuo no desenvolvimento de sistemas que entregam resultados reais, combinando funcionalidade, escalabilidade e inovação. Busco sempre criar soluções que facilitem o cotidiano e resolvam problemas de forma inteligente.
+                </p>
+                <div class="tech-stack">
+                <span class="chip">Python</span>
+                <span class="chip">Django</span>
+                <span class="chip">Docker</span>
+                <span class="chip">PostgreSQL</span>
+                <span class="chip">MariaDB</span>
+                <span class="chip">Git</span>
+                <span class="chip">Linux</span>
+                <span class="chip">Nginx</span>
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">Hostinguer</span>
                 </div>
             </div>
-        </div>
+            <div class="hero-img">
+                <img src="./src/img/foto_responsa.jpeg" alt="Giovani Dantas trabalhando"/>
+            </div>
+        </section>
 
-        <div class="about_data">
-            <canvas id="pizzaCanvas" width="400" height="400"></canvas>
 
-        </div>
+        <h1 style="text-align: center;margin: 90px 0px 70px 0px;">Certificações</h1>
+
+        <section class="certificates">
+            <a href="#certify-1">
+                <p>
+                    All
+                </p>
+            </a>
+            <a href="#certify-2">
+                <p>
+                    DevOps
+                </p>
+            </a>
+            <a href="#certify-3">
+                <p>
+                    Back-end
+                </p>
+            </a>
+            <a href="#certify-4">
+                <p>
+                    Front-end
+                </p>
+            </a>
+            <a href="#certify-5">
+                <p>
+                    Organizacionais
+                </p>
+            </a>
+        </section>
+
+        <section class="certificates-achieved">
+            <div class="card-certifacates">
+                <img src="https://cdn2.hubspot.net/hubfs/5879415/Logos-Eniac-2019.png">
+                <h1 class="title-achieved">
+                    Eniac Lab Hackton
+                </h1>
+                <p>
+                    Instituição: Eniac
+                </p>
+                <p>
+                    Duração: 60 horas
+                </p>
+                <p>
+                    Ano de conclusão: 2025
+                </p>
+                <a href="./src/img/certificados/hackton-eniac.png">Certificado: <span>Clique aqui</span></a>
+            </div>
+        </section>
+
+        <h1 class="title-vertical-timeline">
+            Timeline
+        </h1>
+
+        <section class="vertical-timeline">
+            <div class="timeline-left">
+              <div class="timeline-item" onclick="showDetails(0)">
+                <div class="dot"></div>
+                <p>Estágio (2023)</p>
+              </div>
+              <div class="timeline-item" onclick="showDetails(1)">
+                <div class="dot"></div>
+                <p>Efetivação (2024)</p>
+              </div>
+              <div class="timeline-item" onclick="showDetails(2)">
+                <div class="dot"></div>
+                <p>Tech Lead (2025)</p>
+              </div>
+              <div class="timeline-item" onclick="showDetails(3)">
+                <div class="dot"></div>
+                <p>Inovação legal</p>
+              </div>
+              <div class="timeline-item" onclick="showDetails(4)">
+                <div class="dot"></div>
+                <p>Innovation Fest</p>
+              </div>
+            </div>
+          
+            <div class="timeline-content" id="historyContent">
+              <h2>Histórico</h2>
+              <p>Selecione um ponto na linha do tempo para ver detalhes aqui.</p>
+            </div>
+        </section>
+
     </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
 
-<script src="src/js/index.js"></script>
+<script src="./src/js/underline.js"></script>
+<script src="./src/js/timeline.js"></script>
