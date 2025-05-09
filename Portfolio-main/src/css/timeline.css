@@ -1,0 +1,66 @@
+/* TIMELINE */
+.title-vertical-timeline {
+    margin-top: 40px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgba(32, 32, 32, 0.95);
+}
+
+.vertical-timeline {
+    display: flex;
+    background-color: rgba(32, 32, 32, 0.95);
+    color: #fff;
+    padding: 50px;
+    min-height: 100vh;
+  }
+  
+  .timeline-left {
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-left: 4px solid #00ffff;
+    padding-left: 20px;
+  }
+  
+  .timeline-item {
+    position: relative;
+    cursor: pointer;
+    padding-left: 20px;
+  }
+  
+  .timeline-item .dot {
+    width: 18px;
+    height: 18px;
+    background: #00ffff;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    transition: transform 0.2s ease;
+  }
+  
+  .timeline-item:hover .dot {
+    transform: scale(1.3);
+  }
+  
+  .timeline-item p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  
+  .timeline-content {
+    width: 70%;
+    background-color: rgba(32, 32, 32, 0.95);
+    margin-left: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffffb6;
+    transition: all 0.3s ease;
+  }
+  
+
+@media (max-width: 900px) {
+    
+}

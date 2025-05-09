@@ -1,0 +1,55 @@
+/* HEADER */
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.header_align {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.itens-header {
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.itens-header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(32, 204, 247);
+    transition: width 0.3s ease-in-out;
+}
+
+.itens-header:hover::after,
+.itens-header.active::after {
+    width: 100%;
+}
+
+@media (max-width: 900px){
+    .header_align {
+        gap: 10px;
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+}
+
+@media (max-width:400px) {
+    .itens-header {
+        font-size: 0.67rem;
+        gap: 0.2px !important; 
+    }
+}
+/* FIM HEADER */
